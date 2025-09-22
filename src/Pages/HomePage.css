@@ -1,0 +1,27 @@
+.swiper {
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-scrollbar {
+    background: #222; /* Dark background for the scrollbar track */
+    height: 10px; /* A slightly thinner bar */
+    bottom: 0; /* Position it at the very bottom */
+    left: 0;
+    width: 100%;
+
+}
+
+.swiper-scrollbar-drag {
+    background: #f1f1f1; /* Light color for the handle */
+    border-radius: 8px;
+    transform-origin: left;
+}
